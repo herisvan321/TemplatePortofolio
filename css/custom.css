@@ -1,0 +1,173 @@
+.update-logo {
+    margin-left: 25px;
+}
+
+nav {
+    z-index: 3;
+}
+
+header {
+    z-index: 2;
+}
+
+#nav-bg {
+    z-index: 1;
+}
+
+body {
+    background: #eee;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+}
+
+header {
+    position: relative;
+    background-color: black;
+    padding: 1em;
+    height: 100vh;
+}
+
+header:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("images/naufal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 65% 50%;
+    opacity: 0.4;
+}
+
+#nav-bg {
+    background: white;
+    position: fixed;
+    height: 65px;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container h3 {
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.container h5 {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+header h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    padding-top: 30vh;
+}
+
+header p {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 200;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    margin-right: 0;
+}
+
+/* Start About */
+#about {
+    background: #eee;
+    height: auto;
+    padding: 5em 0;
+}
+
+.about-container {
+    margin-top: 50px;
+}
+
+.about-form {
+    margin-left: 25px;
+}
+
+.about-image {
+    border: 5px solid white;
+}
+
+.card-social-image {
+    padding: 10px;
+}
+
+.card-action a {
+    transition: ease-in 1s;
+    -webkit-transition: ease-in 1s;
+}
+
+.card-action a:hover {
+    opacity: 0.7;
+}
+
+/* End About */
+
+/* Start Technology */
+#technology {
+    background: #FFF;
+    height: auto;
+    padding: 5em 0;
+}
+.technology-title{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+/* End Technology */
+
+/* Start Portfolio */
+#portfolio{
+    background: #eee;
+    height: auto;
+    padding: 5em 0;
+}
+/* End Portfolio */
+
+/* Start Experience */
+#experience{
+    background: #fff;
+    height: auto;
+    padding: 5em 0;
+}
+/* End Experience */
+
+/* Start Certification */
+#certification{
+    background: #eee;
+    height: auto;
+    padding: 5em 0;
+}
+/* End Certification */
+
+/* Start Article */
+#articles{
+    background: #fff;
+    height: auto;
+    padding: 5em 0;
+}
+/* End Article */
+
+.page-footer {
+    background-color: #37474f;
+}
+
+@media (max-width: 700px) {
+    nav .brand-logo {
+        font-size: 1.5rem;
+    }
+}
